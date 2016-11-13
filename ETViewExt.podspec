@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ETViewExt"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "ETViewExt 方便布局"
   s.description  = <<-DESC
 					UIView的分类，方便iOS开发的布局。
@@ -22,8 +22,5 @@ Pod::Spec.new do |s|
   s.source_files  = "ETViewExt/ETViewExt/ETViewExt/*.{h,m}"
 
   s.requires_arc = true
-
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
 
 end
