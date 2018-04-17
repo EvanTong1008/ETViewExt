@@ -2,9 +2,9 @@
 
 UIView的分类，方便布局
 
-####声明：并非原创，只为提供自己和大家使用方便
+#### 声明：并非原创，只为提供自己和大家使用方便
 
-####举例：
+#### 举例：
 
 	UIView *view1 = [[UIView alloc] initWithFrame:CGRectMake(20, 100, 100, 100)];
     view1.backgroundColor = [UIColor redColor];
@@ -20,11 +20,11 @@ UIView的分类，方便布局
     
     
 
-######说明：
+###### 说明：
 
 * view2的左部与view1对齐，顶部举例view1的底部10，长度与宽度与view1保持一致
 * view3的左部距离view1右部10，顶部与view1顶部对齐，长度与宽度与view1保持一致
 
-####如何引用：
+#### 如何引用：
 * pod 'ETViewExt', '~> 1.0.0'
 
